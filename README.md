@@ -59,7 +59,7 @@ for i in range (M+1):
             c=c+1
     f.append(c)
     x.append(i)
-sf=np.sum(f)
+sf=np.sum(f) 
 p=list()
 for i in range(M+1):
     p.append(f[i]/sf) 

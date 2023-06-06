@@ -61,7 +61,7 @@ for i in range (M+1):
     x.append(i)
 sf=np.sum(f) 
 p=list()
-for i in range(M+1):
+for i in range(M+1): 
     p.append(f[i]/sf) 
 mean=np.inner(x,p)
 EX2=np.inner(np.square(x),p)
